@@ -1,0 +1,140 @@
+html, body{
+    margin:0;
+    padding:0;
+    height: 100%;
+    width: 100%;
+    background-color:gray;
+}
+body{
+    display:flex;
+}
+
+div{
+    font-size:2rem;
+    text-align:center;
+    font-family:Arial;
+}
+
+/*ROW1*/
+
+section{
+    display: flex;
+    flex-grow: 1;
+}
+
+#left{
+    background-color:#66FF33;
+    flex-direction:column;
+    
+}
+
+/*ROW2*/
+
+#center{
+background-color:#009933;
+}
+
+/*ROW3*/
+
+#right{
+background-color:#66FF66;
+}
+
+/*BOX1*/
+
+#box1left{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin:5em;
+}
+/*BOX2*/
+
+#box2left{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+#box3left{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*BOX1CENTER*/
+
+#box1center{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+
+/*BOX2CENTER*/
+
+#box2center{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+
+/*BOX3CENTER*/
+
+#box3center{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*BOX1RIGHT*/
+
+#box1right{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+
+/*BOX2RIGHT*/
+
+#box2right{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+
+/*BOX3RIGHT*/
+
+#box3right{
+    height:200px;
+    width:200px;
+    background-color:#FF33CC;
+    border:.3em solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
